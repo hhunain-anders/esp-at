@@ -25,7 +25,7 @@
 const char *g_at_mfg_nvs_name = "mfg_nvs";
 
 // static variables
-static const char *s_ready_str = "\r\nready\r\n";
+static const char *s_ready_str = "\r\nANDERS\nready\r\n";
 static at_mfg_params_storage_mode_t s_at_param_mode = AT_PARAMS_NONE;
 static const char *TAG = "at-init";
 
